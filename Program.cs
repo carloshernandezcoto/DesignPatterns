@@ -1,0 +1,54 @@
+﻿// See https://aka.ms/new-console-template for more information
+using PatternsApp;
+using PatternsApp.Memento;
+using PatternsApp.State;
+using PatternsApp.Iterator;
+using PatternsApp.Strategy;
+using PatternsApp.Template;
+using PatternsApp.Command;
+using PatternsApp.Observer;
+using PatternsApp.Mediator;
+using PatternsApp.ChainOfResponsibility;
+using PatternsApp.Visitor;
+using PatternsApp.Composite;
+using PatternsApp.Adapter;
+using PatternsApp.Decorator;
+using PatternsApp.Facade;
+using PatternsApp.Flyweight;
+using PatternsApp.Bridge;
+using PatternsApp.Proxy;
+using PatternsApp.Prototype;
+using PatternsApp.Singleton;
+using PatternsApp.Playground;
+using PatternsApp.Factory;
+using PatternsApp.AbstractFactory;
+using PatternsApp.Builder;
+
+PrintAppMsg.Print("Starting app...");
+IPattern currentPattern;
+
+//currentPattern = new Memento();
+//currentPattern = new State();
+//currentPattern = new Iterator();
+//currentPattern = new Strategy();
+//currentPattern = new Template();
+//currentPattern = new Command();
+//currentPattern = new Observer();
+//currentPattern = new Mediator();
+//currentPattern = new ChainOfResponsibility();
+//currentPattern = new Visitor();
+//currentPattern = new Composite();
+//currentPattern = new Adapter();
+//currentPattern = new Decorator();
+//currentPattern = new Facade();
+//currentPattern = new Flyweight();
+//currentPattern = new Bridge();
+//currentPattern = new Proxy();
+//currentPattern = new Prototype();
+//currentPattern = new Singleton();
+//currentPattern = new Playground();
+//currentPattern = new Factory();
+//currentPattern = new AbstractFactory();
+currentPattern = new Builder();
+
+currentPattern.Execute();
